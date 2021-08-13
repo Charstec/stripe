@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Sales Page</title>
+    <link rel="stylesheet" href="sales.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,600"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <img src="jazz-musician-logo-vector-7125124.jpeg" class="logo" />
+        <h1>
+          YOU'RE SECONDS AWAY FROM RESERVING A SPECIAL EVENING OF JAZZ, FOOD,
+          AND FUN.
+        </h1>
+      </header>
+      <div id="form">
+        <div id="left">
+          <div id="contact">
+            <h2 class="topHeader">ENTER YOUR CONTACT INFORMATION</h2>
+            <input type="text" placeholder="First Name" />
+            <input type="text" placeholder="Last Name" />
+            <input type="email" placeholder="Email Address" />
+            <input type="tel" placeholder="Phone Number" />
+          </div>
+          <!-- contact -->
+          <div id="coupon">
+            <input type="text" placeholder="Coupon Code" />
+            <button>Apply Coupon</button>
+          </div>
+          <!-- coupon -->
+          <div id="payment">
+            <h2>ENTER YOUR PAYMENT OPTION</h2>
+            <div class="payOption" id="999">
+              <div class="poLeft">
+                <div class="radioBtn">
+                  <input type="radio" name="paymentOption" id="payOption1" />
+                </div>
+                <div class="payInfo">
+                  $29.99 per person<br />
+                  <span class="note"
+                    >Includes Cajun buffet and 2 mixed drinks
+                  </span>
+                </div>
+                <!-- payInfo -->
+              </div>
+              <div class="poRight">$29.99</div>
+            </div>
+            <div class="payOption" id="9999">
+              <div class="poLeft">
+                <div class="radioBtn">
+                  <input type="radio" name="paymentOption" id="payOption2" />
+                </div>
+                <div class="payInfo">
+                  $99.99 per table<br />
+                  <span class="note"
+                    >Includes Cajun buffet and 2 mixed drinks for 4 people</span
+                  >
+                </div>
+                <!-- payInfo -->
+              </div>
+              <div class="poRight">$99.99</div>
+            </div>
+          </div>
+          <!-- payment -->
+          <div id="ccInfo">
+            <h2>ENTER YOUR CREDIT CARD INFORMATION</h2>
+            <input type="text" placeholder="Card Number" class="fullWidth" />
+            <input type="text" placeholder="MM/YY" />
+            <input type="text" placeholder="CVC" /><br />
+            <div id="cardImage">
+              <img src="cards.png" />
+            </div>
+            <!-- cardImage -->
+          </div>
+          <!-- ccInfo -->
+          <div id="summary">
+            <h2>ORDER SUMMARY</h2>
+            <p>Total: <output id="totalOut">$9.99</output></p>
+            <div id="buttonSpace">
+              <button id="goButton">RESERVE NOW</button>
+            </div>
+          </div>
+          <!-- summary -->
+        </div>
+
+        <div id="right">
+          <img src="gettyimages-465732100-170667a.jpeg" />
+          <h3><strong>NOVEMBER NITE at NOJO</strong></h3>
+          <p>
+            Tickets include a Cajun buffet with 2 cocktails.
+            <br />
+            Dance to the sounds of the New Orleans Jazz Orchestra.
+          </p>
+        </div>
+        <!-- right -->
+      </div>
+      <!-- form -->
+    </div>
+    <!-- container-->
+    <script src="sales.js"></script>
+  </body>
+</html>
